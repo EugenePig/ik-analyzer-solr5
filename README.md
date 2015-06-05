@@ -33,4 +33,7 @@ or
       <analyzer type="index" useSmart="false" class="org.wltea.analyzer.lucene.IKAnalyzer"/>   
       <analyzer type="query" useSmart="true" class="org.wltea.analyzer.lucene.IKAnalyzer"/>   
     </fieldType>
+
+# Resources #
+1. [Build IKAnalyzer With Solr 5.1.0](http://blog.univle.com/blog/2015/06/05/build-ikanalyzer-with-solr-5-dot-1-0/)
     
