@@ -17,6 +17,7 @@
 
     <javac.src.version>1.8</javac.src.version>
     <javac.target.version>1.8</javac.target.version>
+    <maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
   </properties>
 
   <dependencies>
@@ -54,6 +55,7 @@
 	  <target>${javac.src.version}</target>
 	  <source>${javac.target.version}</source>
         </configuration>
+        <version>${maven.compiler.plugin.version}</version>
       </plugin>
     </plugins>
   </build>
