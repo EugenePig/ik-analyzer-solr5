@@ -34,6 +34,14 @@ or
       <analyzer type="query" useSmart="true" class="org.wltea.analyzer.lucene.IKAnalyzer"/>   
     </fieldType>
 
+# Compilation Error #
+1. Question: The following error happened while running "mvn clean install"
+
+> [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project ik-analyzer-solr5: Fatal error compiling: invalid target release: 1.8 -> [Help 1]
+
+Answer: Please check your JAVA_HOME setting. If JAVA_HOME setting exists, it may not be JAVA8.  
+
+
 # Resources #
 1. [Build IKAnalyzer With Solr 5.1.0](http://blog.univle.com/blog/2015/06/05/build-ikanalyzer-with-solr-5-dot-1-0/)
     
