@@ -5,7 +5,7 @@ The original creator of IKAnalyzer is [Liang-Yi Lin ](linliangyi2007@gmail.com) 
  - based on IK Analyer 2012-FF Hotfix 1 
  - added support for Lucene 5.1.0 API
 
-#Installation #
+# Installation  #
 
  - JDK8 
 
